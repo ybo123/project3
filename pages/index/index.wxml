@@ -1,2 +1,5 @@
 <!--pages/index/index.wxml-->
 <text>pages/index/index.wxml</text>
+<view class='index'>
+  <image bindtap='clickMe' src='./images/me.jpg'></image>
+</view>

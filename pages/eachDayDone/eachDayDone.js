@@ -1,4 +1,4 @@
-// pages/index/index.js
+// pages/eachDayDone/eachDayDone.js
 Page({
 
   /**
@@ -62,13 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  clickMe:function(){
-    wx.navigateTo({
-      url: '../eachDayDone/eachDayDone',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
   }
 })
